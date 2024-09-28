@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.parallax {
+    height: 100vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax0{
+    background-image: url('https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20180524164435/Wonders.jpg');
+}
+
+#parallax1 {
+    background-image: url('https://i.pinimg.com/originals/0a/21/ca/0a21ca209a71f1c0404da30411be770f.jpg');
+    
+}
+
+#parallax2 {
+    background-image: url('https://wallpapercave.com/wp/wp1885745.jpg');
+  
+}
+
+#parallax3 {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/246/806/550/nature-landscape-desert-sand-wallpaper-preview.jpg');
+    
+}
+
+#parallax4 {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/578/74/376/peru-hills-5k-clouds-wallpaper-preview.jpg');
+    
+}
+
+#parallax5 {
+    background-image: url('https://images4.alphacoders.com/217/thumb-1920-217446.jpg');
+   
+}
+
+#parallax6 {
+    background-image: url('https://images.pexels.com/photos/1797161/pexels-photo-1797161.jpeg?cs=srgb&dl=pexels-chaitaastic-1797161.jpg&fm=jpg');
+  
+}
+#parallax7{
+    background-image: url('https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg?cs=srgb&dl=pexels-sudipta-1603650.jpg&fm=jpg');
+}
+
+.content {
+   
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 2.5em;
+    color: hsl(0, 0%, 0%);
+    text-align: center;
+    font-family: "Style Script", cursive;
+}
+
+p {
+    font-size: 1.2em;
+    color: #666;
+    font-family: "Kurale", serif;
+}
+
+.caption {
+    position: absolute;
+    bottom: 300px;
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+}
